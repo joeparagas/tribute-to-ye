@@ -1,11 +1,5 @@
-@font-face {
-    font-family: "Game of Thrones"; 
-    src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot"); src: url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2") 
-    format("woff2"), 
-    url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff") format("woff"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones") 
-    format("svg");
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
 body {
     background-color: #0059ac;
@@ -22,9 +16,24 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+div.myDiv{
+    margin: 10;
+    bottom: auto;
+}
 
 
-
-
+.centre {
+    align-items: center;
+    margin-bottom: 0%;
+    margin-left: 13%;
+}
 
